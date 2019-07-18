@@ -1,0 +1,6 @@
+Recommended tests
+I would add a few tests:
+
+Assert.assertEquals(Arrays.asList(), primeUtil.getPrimesUptoN(-5)); — to check for the more lenient validation
+Assert.assertEquals(17, primeUtil.getNextPrime(15)); — to check for the more lenient validation
+Assert.assertEquals(30529, primeUtil.getNextPrime(30526)); — to see what happens with a sudden large expansion of the sieve
