@@ -1,5 +1,8 @@
-public class NthPrime_01_Naive{
 
+
+
+
+public class NthPrime_01_Naive{
     // A fully naive primality test using trial division.
     // In school we have learned that a prime is a number
     // (greater than 1) which is divisible only by 1 and by itself.
